@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S2/finance/question_de_cour.md",
+                "file": "S2/english.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "question_de_cour"
+              "title": "english"
             }
           }
         ],
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "75ab792e770ef264",
@@ -217,9 +216,10 @@
   },
   "active": "9073ea6f527117d1",
   "lastOpenFiles": [
+    "S2/finance/question_de_cour.md",
+    "S2/english.md",
     "S2/finance/Marchés de Capitaux.md",
     "S2/finance/management du portfeuille.md",
-    "S2/finance/question_de_cour.md",
     "S2/finance/exam.md",
     "hh.md",
     "Untitled.md",
@@ -244,7 +244,6 @@
     "attachements/Pasted image 20260105185725.png",
     "attachements/Pasted image 20260105185627.png",
     "S2/Analyse_donnee",
-    "S2/Untitled.md",
     "S2/finance",
     "S2/DL/Perceptron & Multi-Layer Perceptron (MLP).md",
     "S2/DL/Methodology and Data Analytics (CRISP-DM).md",

@@ -1,0 +1,5 @@
+{
+  "enableKeyRepeat": true,
+  "keyRepeatDelay": 500,
+  "keyRepeatInterval": 50
+}

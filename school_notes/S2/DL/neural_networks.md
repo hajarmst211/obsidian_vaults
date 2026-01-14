@@ -138,3 +138,32 @@ Because back propagation is iterative, the several ways to know when to stop:
 ---
 **Fonction de perte :** Mesure l'écart entre la prédiction du modèle et la valeur réelle attendue.
     *   **Exemple classification :** L'Entropie croisée binaire (Binary Cross-Entropy).
+---
+
+# RNN (Réseaux de Neurones Récurrents) 
+### 1. Positionnement dans le module
+*   Les RNN constituent le **Chapitre III** du module "Deep Learning" (M3.6.2), venant après les couches denses (MLP) et les réseaux convolutifs (CNN).
+*   L'un des objectifs affichés du cours est d'explorer les "diverses architectures de Deep Learning, y compris les réseaux neuronaux convolutifs (CNN) et les **réseaux neuronaux récurrents (RNN)**".
+
+### 2. Spécialisation et Données
+*   **Domaine de prédilection :** Les RNN sont présentés comme l'architecture fondamentale pour le traitement des **données séquentielles**.
+*   **Séries temporelles :** Le cours précise qu'ils sont indispensables pour l'apprentissage en profondeur appliqué aux séries temporelles.
+*   **Nature des données :** Contrairement aux CNN (images), les RNN gèrent des flux de données où l'ordre (le temps) a une importance capitale.
+
+### 3. Historique et Algorithmes clés
+*   **Maturité ancienne :** Le cours souligne que les RNN étaient déjà "bien compris dès **1989**" (bien que leur explosion soit récente grâce au matériel/GPU).
+*   **Le LSTM (Long Short-Term Memory) :** Mentionné comme l'algorithme "fondamental pour l'apprentissage en profondeur pour les séries temporelles". Il a été développé en **1997** et a peu changé depuis, car il résout les problèmes de mémoire à long terme.
+*   **Le GRU (Gated Recurrent Unit) :** Apparaît dans les schémas d'architectures avancées (notamment pour l'application *Vision + NLP*).
+
+### 4. Applications concrètes illustrées
+Le cours cite plusieurs applications majeures utilisant des couches récurrentes :
+*   **Paroles vers Texte (Speech to Text) :** Le schéma de Baidu (2014) montre l'utilisation de couches récurrentes pour transformer le signal audio en texte (Slide 13, PDF 3).
+*   **NLP (Natural Language Processing) :** Utilisé pour la traduction automatique (ex: Google Translate).
+*   **Vision + NLP (VQA - Visual Question Answering) :** Le cours montre un exemple où un modèle utilise un **GRU** pour comprendre une question textuelle posée sur une image (ex: "Is the mustache real ?") (Slide 18, PDF 3).
+
+### 5. Concepts techniques sous-jacents
+*   **Rétropropagation :** Le cours lie historiquement la rétropropagation à l'efficacité des RNN (bien que la rétropropagation soit utilisée pour tous les réseaux, elle prend une forme spécifique pour les séquences).
+*   **Architectures complexes :** Les RNN sont inclus dans la "famille" des architectures de réseaux de neurones profonds au même titre que les Auto-encodeurs ou les réseaux génératifs (GAN).
+
+**Ce qu'il faut retenir pour l'examen :**
+Si vous avez une question sur les RNN, concentrez-vous sur leur capacité à traiter les **séquences**, leur lien avec les **séries temporelles** et le **NLP**, ainsi que sur l'importance de l'algorithme **LSTM** pour gérer la mémoire.

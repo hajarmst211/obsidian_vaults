@@ -109,19 +109,21 @@ page 20 slide 40
 - The PMC uses a combination of linear separators.
 - You might use a **Sigmoid** in the hidden layers to handle non-linearity. 
 - But you might use a **Linear** function in the output layer if you are trying to predict a continuous price or value rather than a category.
-### Retropropagation de l’erreur
+### Retro propagation de l’erreur
 - **Def:** This is the fundamental process by which a Multi-Layer Perceptron (PMC) learns.
 *   **Mechanism:** It uses the **Gradient Descent** algorithm to minimize the difference (Error $E$) between the network's outputs and the desired targets.
 
 #### Process:
-1.  **Calculate activations for hidden units:** Based on inputs and weights ($W_{ij}$).
-2.  **Calculate activations for output units:** Based on hidden unit values and weights ($W_{jk}$).
-3.  **Calculate Error at Output:** Compare the obtained output ($a_k$) with the desired target ($d_k$) to find the error $e_k = d_k - a_k$.
-4.  **Calculate Error Signal for Output Units ($\delta_k$):** This combines the error with the derivative of the activation function: $\delta_k = e_k \cdot f'(S_k)$.
-5.  **Back propagate to Hidden Units ($\delta_j$):** The error is "pushed back" through the weights to see how much each hidden unit contributed to the mistake: $\delta_j = (\sum W_{jk} \delta_k) \cdot f'(S_j)$.
-6.  **Ajustement des poids (Weight Adjustment):** Finally, update all weights using the calculated signals:
-    *   For output weights: $\Delta W_{jk} = \epsilon \delta_k a_j$
-    *   For hidden weights: $\Delta W_{ij} = \epsilon \delta_j a_i$
+- **A. La Passe Avant (Forward Pass) :**
+    1. On injecte les données en entrée.    
+    2. Le signal traverse le réseau (multiplication par les poids + fonctions d'activation).       
+    3. On obtient une sortie calculée ($a_k$).
+    4. On calcule l'erreur totale du réseau par rapport à la sortie désirée ($d_k$).
+        
+- **B. La Passe Arrière (Backward Pass / Rétropropagation) :**
+    1. On calcule l'erreur des neurones de la **couche de sortie**.
+    2. On "rétropropage" cette erreur vers les neurones de la **couche cachée** en utilisant les poids des connexions.    
+    3. On ajuste les poids de toutes les couches pour réduire cette erreur.
 
 #### The Objective 
 The course summarizes the goal of this title as:
@@ -132,5 +134,7 @@ The course summarizes the goal of this title as:
 Because back propagation is iterative, the several ways to know when to stop:
 *   After a fixed number of iterations.
 *   When weights stabilize.
-*   When the error on the **training set** falls below a certain limit.
 *   When the error on a **validation set** falls below a certain limit (to prevent overfitting).
+---
+**Fonction de perte :** Mesure l'écart entre la prédiction du modèle et la valeur réelle attendue.
+    *   **Exemple classification :** L'Entropie croisée binaire (Binary Cross-Entropy).

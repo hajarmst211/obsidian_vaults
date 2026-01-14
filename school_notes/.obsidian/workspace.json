@@ -4,67 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "7e961b6e57744bb3",
+        "id": "f00910b9ffc103fe",
         "type": "tabs",
         "children": [
           {
-            "id": "63ea62946273bea1",
+            "id": "6f38c1bb7c169ca2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S2/finance/exam.md",
+                "file": "S2/DL/question d'exam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "exam"
+              "title": "question d'exam"
             }
           },
           {
-            "id": "472677e657c4fe10",
+            "id": "3551ca649dbbb17e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S2/finance/management du portfeuille.md",
+                "file": "S2/DL/question de cour.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "management du portfeuille"
+              "title": "question de cour"
             }
           },
           {
-            "id": "8d10e197e181b27e",
+            "id": "f23e39b099df97df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S2/finance/Marchés de Capitaux.md",
+                "file": "S2/DL/reponse aux questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Marchés de Capitaux"
-            }
-          },
-          {
-            "id": "9073ea6f527117d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S2/english.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "english"
+              "title": "reponse aux questions"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,10 +199,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9073ea6f527117d1",
+  "active": "6f38c1bb7c169ca2",
   "lastOpenFiles": [
-    "S2/finance/question_de_cour.md",
+    "S2/DL/CNN.md",
+    "S2/DL/neural_networks.md",
+    "S2/DL/reponse aux questions.md",
+    "S2/DL/question de cour.md",
+    "S2/DL/question d'exam.md",
+    "S2/DL/Méthodologie_d’un_projet_Data_Analytics.md",
+    "S2/DL/correction exercice.md",
     "S2/english.md",
+    "S2/finance/question_de_cour.md",
     "S2/finance/Marchés de Capitaux.md",
     "S2/finance/management du portfeuille.md",
     "S2/finance/exam.md",
@@ -230,12 +222,7 @@
     "S2/Propriete intelectuelle/problems.md",
     "S2/Propriete intelectuelle/les droits.md",
     "S2/Propriete intelectuelle/exercie.md",
-    "S2/DL/question de cours.md",
-    "S2/DL/neural_networks.md",
     "S2/Propriete intelectuelle",
-    "S2/DL/correction exercice.md",
-    "S2/DL/Méthodologie_d’un_projet_Data_Analytics.md",
-    "S2/DL/CNN.md",
     "scene.md",
     "S2/finance/resume.md",
     "S2/Analyse_donnee/resume.md",
@@ -247,8 +234,6 @@
     "S2/finance",
     "S2/DL/Perceptron & Multi-Layer Perceptron (MLP).md",
     "S2/DL/Methodology and Data Analytics (CRISP-DM).md",
-    "S2/DL/Deep Learning (CNN).md",
-    "S2/BD/Resume.md",
     "attachements/palyer_inventory.png",
     "S2/DL",
     "attachements/Pasted image 20251221183213.png",

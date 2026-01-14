@@ -12,40 +12,49 @@ Neural networks need non lineare functions
 - **def:** It is a specific type of algorithm particularly used to **classify images**
 
 ### CNN layers:
-1. **Convolutional Layer:** This is the fundamental operation. It uses **filters (or kernels)**—small matrices of weights
+##### 1. La Couche d'Entrée (*Input Layer*)
+*   **Ce qu'elle fait :** Elle reçoit l'image brute. 
+*   **Détail :** On y définit les dimensions de l'image (largeur, hauteur, et nombre de canaux, ex: 3 pour une image couleur RGB).
 
-2. **Activation Layer (ReLU):** It applies a non-linear function (Rectified Linear Unit) to allow the network to learn complex relationships and non-trivial representations.
-    
-3. **Pooling Layer:** This reduces the spatial dimensions of the feature maps to decrease the number of parameters and prevent overfitting, while preserving the most important information.
-    
-4. **Fully Connected Layer:** Toward the end of the network, the extracted features are "flattened" and passed into a traditional neural network to predict the final probability of the image belonging to a specific class (e.g., "Dog" or "Cat").
+##### 2. La Couche de Convolution (*Convolutional Layer*)
+*   **Ce qu'elle fait :** C'est le cœur du CNN. Elle sert à **extraire des caractéristiques** (*features*) de l'image.
+*   **Comment :** Elle utilise des **filtres** (ou noyaux) qui glissent sur l'image pour détecter des motifs spécifiques : des bords, des textures, ou des formes plus complexes (Slide 39).
+*   **Résultat :** Elle produit des **Feature Maps** (cartes de caractéristiques).
+
+##### 3. La Couche d'Activation (généralement **ReLU**)
+*   **Ce qu'elle fait :** Elle introduit de la **non-linéarité** dans le réseau.
+*   **Comment :** La fonction ReLU remplace toutes les valeurs négatives par des zéros et conserve les valeurs positives (Slide 42).
+*   **Utilité :** Cela permet au réseau d'apprendre des relations complexes et des représentations non triviales (Slide 44).
+
+##### 4. La Couche de Pooling (souvent Max-Pooling)
+*   **Ce qu'elle fait :** Elle réduit la **dimension spatiale** (la taille) des Feature Maps.
+*   **Avantages (Slide 48) :**
+    *   Réduit le nombre de paramètres (donc moins de calculs).
+    *   Aide à prévenir le **sur-apprentissage** (*overfitting*).
+    *   Rend le réseau invariant aux petites translations (si l'objet bouge un peu, il est toujours détecté).
+
+##### 5. La Couche de Flattening (Mise à plat)
+*   **Ce qu'elle fait :** Elle transforme les matrices (2D/3D) issues des couches précédentes en un **vecteur unique (1D)** (Slide 50).
+*   **Utilité :** C'est une étape de transition nécessaire pour pouvoir injecter les données dans un réseau de neurones classique (MLP) à la fin.
+
+##### 6. La Couche Entièrement Connectée (Fully Connected Layer / Dense)
+*   **Ce qu'elle fait :** Elle effectue la **classification** finale.
+*   **Comment :** C'est un MLP classique où chaque neurone est connecté à toutes les entrées du vecteur de flattening (Slide 51). Elle combine les caractéristiques extraites par les couches de convolution pour prendre une décision globale.
+
+##### 7. La Couche de Sortie (Output Layer)
+*   **Ce qu'elle fait :** Elle donne le résultat de la prédiction.
+*   **Détail :** Le nombre de neurones correspond au nombre de classes à prédire (ex: 2 neurones pour "Chien" ou "Chat"). Elle utilise souvent une fonction finale comme **Softmax** pour donner des probabilités (ex: 90% de chances que ce soit un chien).
+
+---
+
+**Résumé du flux (Slide 53) :**
+`Image` -> `Convolution + ReLU` -> `Pooling` -> `Flattening` -> `Fully Connected` -> `Prédiction (Sortie)`
 
 
 ---
-### 1. Convolution (The Extraction)
-*   **Purpose:** To extract significant features (edges, textures, motifs) from an image.
-*   **How it works:** A **Filter (or Kernel)** moves across the image. At each position, it performs a mathematical operation (multiplied pixels are added together).
-*   **Key Results:** 
-    *   It creates a **Feature Map** (a map showing where specific features are located).
-    *   It uses **Stride** (the step size of the filter) and **Padding** (adding pixels at the edges) to manage the size of the result.
-    *   It builds a hierarchy: low-level layers detect edges, while higher layers detect complex shapes (Slide 39).
 
-### 2. ReLU Activation (The Non-Linearity)
-*   **Purpose:** To introduce **non-linearity** into the network.
-*   **How it works:** It transforms all negative values to **0** and keeps all positive values as they are.
-*   **Why it is essential:** Real-world data is non-linear. ReLU allows the network to learn complex relationships and "non-trivial" representations, which improves the network's ability to generalize to new data (Slide 44).
-
-### 3. Pooling (The Reduction)
-*   **Purpose:** To reduce the spatial dimensions (size) of the feature maps.
-*   **How it works:** Generally using **Max-pooling**, which only keeps the maximum value from a specific "slice" of the image.
-*   **Key Benefits (Slide 48):**
-    *   **Reduces parameters:** Decreases the computational load.
-    *   **Prevents Overfitting:** By reducing the amount of data the network has to memorize.
-    *   **Translation Invariance:** It allows the network to detect a feature even if it has moved slightly in the image.
-
-### 4. Flattening (The Transformation)
-*   **Purpose:** To prepare the data for the final classification step.
-*   **How it works:** It takes all the values from the final 2D matrices (the pooled feature maps) and **stacks them** into a single, long 1D column (vector).
-*   **Goal:** This vector is then fed into the input layer of a standard "Fully Connected" neural network to make the final prediction (Slide 50).
+- **Feature Maps** are used to **predict** (Forward).
+- **The Prediction** is used to **calculate Error** (at the Output Layer).
+- **The Error** is used to **adjust the Filters** that create the Feature Maps (Backward).
 
 

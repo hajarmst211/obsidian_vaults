@@ -1,4 +1,4 @@
-exam_link: https://drive.google.com/drive/folders/1wYGOdWxBefmZhLw5VxRtL2fv3AcodQ35
+
 # def:
 Data Analytics as a multidisciplinary field used to extract knowledge from structured and unstructured data.
 ### Types de techniques et approches:

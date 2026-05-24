@@ -1,0 +1,14 @@
+- bastant= assez
+- moy = tres
+- poco = peu
+- alto = grand de taille
+- llevar = porter
+- hija = daumreno = brun
+- rubio = blond
+- periodista = journaliste
+- castano = chatin
+- pelirrojo = roux
+- pelo = hair
+- rizado = boucle
+- varo = frere
+- prima =cousin

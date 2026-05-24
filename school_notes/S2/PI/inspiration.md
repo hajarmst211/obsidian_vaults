@@ -1,2 +1,0 @@
--  Domo
-- mozar data

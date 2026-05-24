@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f00910b9ffc103fe",
+        "id": "c623ea4d64ff6e8c",
         "type": "tabs",
         "children": [
           {
-            "id": "6f38c1bb7c169ca2",
+            "id": "fa4a934a6a126d62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S2/DL/question d'exam.md",
+                "file": "S4_P2/gen_ai/introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "question d'exam"
-            }
-          },
-          {
-            "id": "3551ca649dbbb17e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S2/DL/question de cour.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "question de cour"
-            }
-          },
-          {
-            "id": "f23e39b099df97df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S2/DL/reponse aux questions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "reponse aux questions"
+              "title": "introduction"
             }
           }
         ]
@@ -106,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "75ab792e770ef264",
@@ -188,65 +161,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "vocabulary-highlighter:Highlight vocabulary": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "bases:Create new base": true,
-      "vocabulary-highlighter:Highlight vocabulary": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "bases:Create new base": true
     }
   },
-  "active": "6f38c1bb7c169ca2",
+  "active": "fa4a934a6a126d62",
   "lastOpenFiles": [
-    "S2/DL/CNN.md",
-    "S2/DL/neural_networks.md",
-    "S2/DL/reponse aux questions.md",
-    "S2/DL/question de cour.md",
-    "S2/DL/question d'exam.md",
-    "S2/DL/Méthodologie_d’un_projet_Data_Analytics.md",
-    "S2/DL/correction exercice.md",
-    "S2/english.md",
-    "S2/finance/question_de_cour.md",
-    "S2/finance/Marchés de Capitaux.md",
-    "S2/finance/management du portfeuille.md",
-    "S2/finance/exam.md",
-    "hh.md",
+    "story/break up.md",
+    "story/chap 2.md",
+    "story",
+    "S4_P2/gen_ai/introduction.md",
+    "Untitled 1.md",
     "Untitled.md",
-    "attachements/Pasted image 20260105185757.png",
-    "mang_portfeuille.md",
-    "S2/Propriete intelectuelle/propriété industrielle.md",
-    "S2/Propriete intelectuelle/propriete  intellectuelle.md",
-    "S2/Propriete intelectuelle/problems.md",
-    "S2/Propriete intelectuelle/les droits.md",
-    "S2/Propriete intelectuelle/exercie.md",
-    "S2/Propriete intelectuelle",
-    "scene.md",
-    "S2/finance/resume.md",
-    "S2/Analyse_donnee/resume.md",
-    "attachements/Pasted image 20260106145133.png",
-    "S2/Analyse_donnee/Untitled.md",
-    "attachements/Pasted image 20260105185725.png",
-    "attachements/Pasted image 20260105185627.png",
-    "S2/Analyse_donnee",
-    "S2/finance",
-    "S2/DL/Perceptron & Multi-Layer Perceptron (MLP).md",
-    "S2/DL/Methodology and Data Analytics (CRISP-DM).md",
-    "attachements/palyer_inventory.png",
-    "S2/DL",
-    "attachements/Pasted image 20251221183213.png",
-    "attachements/Pasted image 20251221182937.png",
-    "attachements/Pasted image 20251221182714.png",
-    "attachements/Pasted image 20251221151605.png",
-    "attachements/Pasted image 20251221151439.png",
-    "S2/BD",
-    "S2/UML",
-    "S2/PI",
-    "S2",
-    "S1",
-    "Excalidraw",
+    "story.md",
+    "S4_P2/gen_ai",
+    "S4_P2/Untitled.md",
+    "S4_P2/PFA/roadmap.md",
+    "S4_P2/PFA/strategistVSanalyst.md",
+    "S4_P2/PFA/state_graph.md",
+    "S4_P2/PFA/Drawing 2026-05-12 11.24.19.excalidraw.md",
+    "S4_P2/PFA/steps.md",
+    "S4_P2/PFA/roadmap2.md",
+    "S4_P2/Cloud/Untitled.md",
+    "S4_P2/Cloud/resume.md",
+    "attachements/Pasted image 20260423002754.png",
+    "attachements/Pasted image 20260423002734.png",
+    "attachements/Pasted image 20260423002721.png",
+    "attachements/Pasted image 20260423002712.png",
+    "attachements/Pasted image 20260423002648.png",
+    "S4_P2/PFA",
+    "S4_P2/Cloud",
+    "S4_P1/espagnole/notes.md",
+    "S4_P2",
+    "S4_P1/data_analytics/questions_exam.md",
+    "S4_P1/espagnole",
+    "S4_P1/data_analytics/Topic modeling.md",
+    "S4_P1/data_analytics/Text mining.md",
+    "S4_P1/data_analytics/Reponse.md",
+    "S4_P1/data_analytics/web_mining.md",
+    "S4_P1/data_analytics/regle_d'association.md",
+    "S4_P1/data_analytics/Exercices.md",
+    "S4_P1/data_analytics/Quetions.md",
+    "S4_P1/data_analytics/crisp-dm.md",
+    "S4_P1/web_integration/resume.md",
+    "attachements/Pasted image 20260326162531.png",
+    "attachements/Pasted image 20260326162428.png",
+    "attachements/Pasted image 20260326162408.png",
+    "attachements/Pasted image 20260325120301.png",
+    "S4_P1/securite",
+    "attachements/Pasted image 20260324010927.png",
+    "S4_P1/data_analytics",
+    "S4_P1/web_integration",
+    "S4_P1/Datawarehouse",
     "Untitled.canvas"
   ]
 }

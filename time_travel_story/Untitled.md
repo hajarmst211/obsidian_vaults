@@ -1,0 +1,29 @@
+- palabra = mot
+- decimos = on dit
+- que significa la palabra = ach kat3ni had lkelma
+- ayuda = health
+- alumno = eleve
+- burro = b4el
+- buscar = chercher
+- bosque = foret
+- cocinar = cuisiner
+- cena = diner
+---
+- c se pronnoce ka d lelante(devant): a- o-u 
+- ce delante de: e-i
+---
+- chaqueta = jequetta
+- dulce = doux/sweet
+- divertido = divertissement
+- escutchar = ecouter
+- entender = 
+- ejencicio = exercice
+- entrada = entrer
+---
+- G(g): in front of : a-o-u-consonne
+**example:** gato- gorro - gusano - gracias
+- G(kha): in front of: e-i
+---
+- ll: j
+- llamada = appel
+- 

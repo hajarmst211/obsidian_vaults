@@ -1,0 +1,13 @@
+Lord Payrell’s house was a bright yellow thing, and so the blossoms on his threshold were yellow, with but a scattering of other hues to offer a modest diversity. However, that the flames of the lanterns cast a touch of vibrant blue, a perfect contrast to the stone. That big wooden door was the final mark of his journey. He knew he ought to have taken the turn to the reds’ entrance at the rear and though he might have taken a path without having to come anywhere near the front, today he felt moved to contemplate its beauty another time.
+
+At the other door, he met Maiden, a woman of forty seven winters. She reached the cracked door first and drew it open; her hand remained upon the latch, her short body stretching upward as she offered a smile as bright as the morning. "Good morning, son!" she greeted, a greeting that warmed his heart.
+
+"I thank you, my lady," Yazi replied, laying his right palm on top of his heart and bowing his head low.
+
+"I am no lady," she chided, offering a soft swat to the back of his neck, her hand barely reaching as he slipped past her. "Go now, before the birds carry your words to the true Lady of the house," she giggled, her face folding into a smile as she pulled the door shut behind him.
+
+Often, when he arrived before the others, the only signs that the house lived were the flowers, the trickling water in the garden, and the wakening birds. But today, life had already erupted in every corner. Each on of them knew precisely where, when, and what to do to keep the functions of the house in steady order.
+
+The garden lay in the heart of the estate, with all chambers of the house built around it in a long sprawl. In the center stood a great fountain, rising taller than a man, with three smaller tiers to catch the falling water and send it tumbling down again in a restless rhythmic dance. From it four main rills departed toward the four winds, stretching as straight as a prayer. The flowing water carved two walkways in every direction. Borders of boxwood framed the beds of yellow flowers or traced delicate, geometric patterns on their own. At the far end stood a rotunda, classical and charming, from which the highest rill seemed to spring, as if the water itself were born from its stone.
+
+Yazi stepped into the garden and set to his labor, refreshing the blooms and helping them open their petals to the morning sun. He set to trimming the wayward sprigs of green that dared to stray beyond the edges of the beds; the shape of the parterres was a law that must be respected.

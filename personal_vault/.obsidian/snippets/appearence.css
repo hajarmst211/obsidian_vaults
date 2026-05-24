@@ -1,0 +1,12 @@
+@import url('file:///home/YOURUSERNAME/.cache/wal/colors.css');
+
+.theme-dark {
+     background-color: #000000; 
+
+    --background-primary: var(--color0);
+    --background-secondary: var(--color0);
+    --text-normal: var(--color15);
+    --text-muted: var(--color7);
+    --interactive-accent: var(--color1);
+    /* Add more variables as needed */
+}

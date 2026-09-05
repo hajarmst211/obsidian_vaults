@@ -40,7 +40,7 @@ His arm was hugging her side from behind although its been a moment since he's f
 
 She takes a shower, randomly dries her hair, pulls out the first outfit she could notice from the closet and heads out to her work.
 
-----
+
 
 
 

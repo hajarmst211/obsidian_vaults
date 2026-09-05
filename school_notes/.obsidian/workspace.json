@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "c623ea4d64ff6e8c",
+        "id": "2ee9af6d95531667",
         "type": "tabs",
         "children": [
           {
-            "id": "fa4a934a6a126d62",
+            "id": "7edf60cf5ba57ce9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S4_P2/gen_ai/introduction.md",
+                "file": "story1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "introduction"
+              "title": "story1"
+            }
+          },
+          {
+            "id": "266eee3d77f9880c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "stage/summary_recherche.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "summary_recherche"
+            }
+          },
+          {
+            "id": "c3acf4ea342bf1fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "stage/website_apis_info.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "website_apis_info"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -41,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "75ab792e770ef264",
@@ -172,54 +202,54 @@
       "bases:Create new base": true
     }
   },
-  "active": "fa4a934a6a126d62",
+  "active": "c3acf4ea342bf1fa",
   "lastOpenFiles": [
-    "story/break up.md",
-    "story/chap 2.md",
-    "story",
-    "S4_P2/gen_ai/introduction.md",
+    "hh.md",
+    "stage/summary_recherche.md",
+    "stage/lexicon_based_approach.md",
+    "stage/topic_extraction.md",
+    "stage/website_apis_info.md",
+    "stage/rapport.md",
+    "stage/evaluations.md",
+    "stage/algos.md",
+    "stage/text_rank-topic_extraction.md",
+    "stage/Drawing 2026-08-08 13.48.38.excalidraw.md",
+    "stage/cosin_similarity.md",
+    "story2.md",
+    "story1.md",
+    "essay.md",
     "Untitled 1.md",
+    "sentiement_analysis_algos.md",
+    "algorithms to explore.md",
+    "story/child_trauma.md",
+    "stage",
+    "story/chap 2.md",
+    "story/break up.md",
+    "story/chapt 3.md",
     "Untitled.md",
-    "story.md",
+    "stage2.md",
+    "resume_cloud.md",
+    "a.md",
+    "pfa.md",
+    "attachements/Pasted image 20260711151844.png",
+    "attachements/Pasted image 20260711135728.png",
+    "attachements/Pasted image 20260711131255.png",
+    "attachements/Pasted image 20260711100649.png",
+    "attachements/Pasted image 20260711094615.png",
+    "attachements/Pasted image 20260618160451.png",
+    "attachements/Pasted image 20260612010109.png",
+    "S4_P2/prevision_temporelle",
+    "S4_P2/gen_ai/questions",
+    "attachements/Pasted image 20260604123048.png",
+    "S4_P2/Serie_Temporelle",
+    "S4_P2/MlOps",
+    "S4_P2/espagnol",
+    "attachements/Pasted image 20260601202816.png",
+    "attachements/Pasted image 20260601105748.png",
+    "S4_P2/NoSql",
+    "story",
     "S4_P2/gen_ai",
-    "S4_P2/Untitled.md",
-    "S4_P2/PFA/roadmap.md",
-    "S4_P2/PFA/strategistVSanalyst.md",
-    "S4_P2/PFA/state_graph.md",
-    "S4_P2/PFA/Drawing 2026-05-12 11.24.19.excalidraw.md",
-    "S4_P2/PFA/steps.md",
-    "S4_P2/PFA/roadmap2.md",
-    "S4_P2/Cloud/Untitled.md",
-    "S4_P2/Cloud/resume.md",
-    "attachements/Pasted image 20260423002754.png",
-    "attachements/Pasted image 20260423002734.png",
-    "attachements/Pasted image 20260423002721.png",
-    "attachements/Pasted image 20260423002712.png",
-    "attachements/Pasted image 20260423002648.png",
     "S4_P2/PFA",
-    "S4_P2/Cloud",
-    "S4_P1/espagnole/notes.md",
-    "S4_P2",
-    "S4_P1/data_analytics/questions_exam.md",
-    "S4_P1/espagnole",
-    "S4_P1/data_analytics/Topic modeling.md",
-    "S4_P1/data_analytics/Text mining.md",
-    "S4_P1/data_analytics/Reponse.md",
-    "S4_P1/data_analytics/web_mining.md",
-    "S4_P1/data_analytics/regle_d'association.md",
-    "S4_P1/data_analytics/Exercices.md",
-    "S4_P1/data_analytics/Quetions.md",
-    "S4_P1/data_analytics/crisp-dm.md",
-    "S4_P1/web_integration/resume.md",
-    "attachements/Pasted image 20260326162531.png",
-    "attachements/Pasted image 20260326162428.png",
-    "attachements/Pasted image 20260326162408.png",
-    "attachements/Pasted image 20260325120301.png",
-    "S4_P1/securite",
-    "attachements/Pasted image 20260324010927.png",
-    "S4_P1/data_analytics",
-    "S4_P1/web_integration",
-    "S4_P1/Datawarehouse",
     "Untitled.canvas"
   ]
 }
